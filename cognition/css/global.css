@@ -57,6 +57,11 @@ a:hover { text-decoration: underline; }
 
 /* Site Styles */
 
+h1 {
+  font-weight: 300;
+  font-size: 40px;
+}
+
 #page-title { font-weight: 300; font-size: 40px; line-height: 1.1; }
 
 .field-name-body, .group-left .views-field-body, .field-name-field-body-after, .field-name-field-body2, .field-name-field-body3 { font-size: 16px; }
@@ -5055,6 +5060,10 @@ a.red-register{
   background: #fff url('../images/staff-bg-fade.png') no-repeat center 0;
 }
 
+.node-type-programme .region-sidebar-second .programme-meet-the-team  .views-row {
+  width: 196px;
+}
+
 .node-type-programme .region-sidebar-second .programme-meet-the-team .views-field-title a { 
   text-decoration: none; 
   color: #707070; 
@@ -5096,7 +5105,7 @@ a.red-register{
   margin: 6px; 
 }
 
-/* Meet the Team - See all */
+/* Meet the Team - Next */
 .node-type-programme .region-sidebar-second .programme-meet-the-team .views-field-nothing { 
   clear: both; 
 }
@@ -5154,7 +5163,7 @@ a.red-register{
 
 /* Download Brochure */
   
-.block-download-brochure {
+.node-type-programme  .block-download-brochure {
   width: 155px;
   height: 50px;
   background: url('../images/pdf-brochure.png') no-repeat;
@@ -5166,30 +5175,58 @@ a.red-register{
   margin-left: -5px;
 }
 
-.block-download-brochure a { 
+.node-type-programme  .block-download-brochure a { 
   color: #fff; 
   text-decoration: none; 
 }
 
-.block-download-brochure a:hover { 
+.node-type-programme  .block-download-brochure a:hover { 
   text-decoration: underline; 
 }
 
-/* Twitter block on VLP Portfolio page */
 
-/*
-.block-twitter-block h2{
-  background: #707070;
-  font-family: "museo-slab";
-  color: #fff;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 41px;
-  text-indent: 20px;
+/* Maths 2 Measure Workshops */
+
+.node-type-programme  .view-maths-workshops .views-row {
+  float: left;
+  width: 196px;
+  height: 150px;
+  margin: 16px 20px 0 0;
+  position: relative;
 }
 
-.block-twitter-block h2 a{
-  color: #fff;
+.node-type-programme  .view-maths-workshops .views-row:hover { cursor: pointer; }
+.node-type-programme  .view-maths-workshops .views-row:hover .views-field-title { text-decoration: underline; }
+
+.node-type-programme  .view-maths-workshops .views-row img {
+  display: block;
+  border: 7px solid white;
 }
 
-*/
+.node-type-programme  .view-maths-workshops .views-row .views-field-title {
+  position: absolute;
+  bottom: 17px;
+  background: rgba(0,0,0,.4);
+  color: #fff;
+  width: 110px;
+  font-size: 13px;
+  min-height: 38px;
+}
+
+.node-type-programme  .view-maths-workshops .views-row .views-field-field-course-thumbnail {
+  box-shadow: 1px 6px 16px 1px lightgrey;
+}
+
+.node-type-programme  .view-maths-workshops .views-row.active .views-field-title { 
+  bottom: 47px; 
+}
+
+.node-type-programme  .view-maths-workshops .views-row .views-field-title { 
+  padding: 10px 5px 10px 15px; 
+}
+
+.node-type-programme  .view-maths-workshops .views-row .views-field-nothing a {
+  color: #fff;
+  font-size: 13px;
+  display: block;
+}
