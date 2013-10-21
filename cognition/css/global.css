@@ -57,6 +57,7 @@ a:hover { text-decoration: underline; }
 
 /* Site Styles */
 
+/* Default main heading style */
 h1 {
   font-weight: 300;
   font-size: 40px;
@@ -152,7 +153,7 @@ a:visited { color: inherit; }
   
   /* Sub Menu Customizations */
 
-  li.menu-mlid-867.active-trail a, li.menu-mlid-1113.active-trail a, li.menu-mlid-1265.active-trail a, li.menu-mlid-858.active-trail a {
+  li.menu-mlid-867.active-trail a, li.menu-mlid-1113.active-trail a, li.menu-mlid-1265.active-trail a, li.menu-mlid-858.active-trail a, li.menu-mlid-13591.active-trail a {
     border: 1px solid #CCC;
     border-bottom: 0;
     position: relative;
@@ -4571,7 +4572,7 @@ input.form-submit { font-family: proxima-nova !important; }
 
 #block-menu-menu-quick-links-cognition li a:hover { color: #707070; text-decoration: underline; }
 
-/* Home Page Slider and Portfolio Sliders*/
+/* Home Page Slider */
 .view-id-home_page_slider{
   height: 308px;
   border: 12px solid white;
@@ -4607,7 +4608,6 @@ input.form-submit { font-family: proxima-nova !important; }
   background: url('../images/trans-one-px.png');
   font-size: 16px;  
 }
-
 
 /* Workshops page */
 
@@ -4919,129 +4919,13 @@ a.red-register{
   }
 }
 
-/* Meet the Staff block */
-
-#page-about .group-footer{
-	padding-top: 47px;
-}
-
-.field-name-portfolio-meet-staff{
-	width: 650px;
-	background: #fff url(../images/meet-staff-bg.png) no-repeat;
-	box-shadow: 5px 5px 20px #bbb;
-}
-
-.field-name-portfolio-meet-staff:after{
-//	background:  url(../images/meet-staff-shadow.png) no-repeat;
-	width: 894px;
-	height: 183px;
-	content: "";
-	position: absolute;
-	bottom: 26px; 
-	right: 10px;
-	display: block;
-	z-index: -1;
-}
-
-.ie8 .field-name-portfolio-meet-staff:after{ display: none; }
-	
-.field-name-portfolio-meet-staff h2{
-  color: #FFFFFF;
-  font-size: 30px;
-  font-weight: 300;
-  height: 43px;
-  line-height: 43px;
-  padding-left: 18px;
-}
-
-.field-name-portfolio-meet-staff .view-meet-staff .view-header{
-        padding-left: 18px;
-        float: left;
-        width: 150px;
-        margin-top: 35px;
-        border-right: 1px dotted #999; 
-}
-
-.field-name-portfolio-meet-staff .view-meet-staff .view-header h4{
-        font-family: museo-slab;
-        font-size: 20px;
-        color: #ca2053;
-        font-weight: 400;
-        margin: 0;
-}
-
-.field-name-portfolio-meet-staff .view-meet-staff .view-header p{
-        margin: 10px 10px 0 0;
-        color: #707070;
-        font-size: 14px;
-}
-
-.field-name-portfolio-meet-staff .view-meet-staff .view-content{
-        float: left;
-        padding: 0 15px 0 10px;
-        margin-top: 35px;
-        border-right: 1px dotted #999; 
-}
-
-.field-name-portfolio-meet-staff .view-meet-staff .view-content h3{
-        font-weight: 400;
-        font-size: 12px;
-        color: #707070;
-        background: #e9e9e9;
-        line-height: 27px;
-        padding-left: 16px;
-        margin-top: 0; 
-}
-
-.field-name-portfolio-meet-staff .view-meet-staff .meet-staff-link{
-        background: url(../images/bullet-arrow.png) 0 5px no-repeat;
-        line-height: 1.8em;
-        color: #707070;
-        padding-left: 15px;
-        cursor: pointer;
-        font-weight: 600;
-}
-
-.oldie .field-name-portfolio-meet-staff .view-meet-staff .meet-staff-link { font-weight: 400; }
-
-.field-name-portfolio-meet-staff .view-meet-staff .meet-staff-link:hover{
-        color: #ca1f52;
-}
-
-.pink-copy, .pink-link{color: #ca1f52 !important;}
-                
-.field-name-portfolio-meet-staff .view-meet-staff .view-footer .view-content{
-        width: 430px;
-        float: left;
-        padding: 0 15px 0 10px;
-        margin-top: 35px;
-        border-right: 0; 
-}
-        
-.field-name-portfolio-meet-staff .view-meet-staff .view-footer .view-content .views-row{
-        display: none;
-}
-
-.field-name-portfolio-meet-staff .view-meet-staff .view-footer .view-content .views-row-1{
-        xdisplay: block;
-}
-
-.field-name-portfolio-meet-staff .view-meet-staff .view-footer .view-content .views-field-body{
-        padding: 0 0 10px 10px;
-}
-
-.field-name-portfolio-meet-staff .view-meet-staff .view-footer .view-content .views-field-field-photo{
-        float: right;
-        padding: 0 0 5px 20px;
-}
-
 /* Programme Pages Sidebar Blocks */
 
 .node-type-programme .region-sidebar-second h2.block-title {
   background: #707070;
   color: #fff;
   line-height: 41px;
-  text-indent: 20px;
+  text-align: center;
 }
 
 .node-type-programme .region-sidebar-second h2.block-title a {
@@ -5105,7 +4989,7 @@ a.red-register{
   margin: 6px; 
 }
 
-/* Meet the Team - Next */
+/* Meet the Team - See all */
 .node-type-programme .region-sidebar-second .programme-meet-the-team .views-field-nothing { 
   clear: both; 
 }
@@ -5143,6 +5027,7 @@ a.red-register{
   text-indent: 50px;
   margin-bottom: 4px;
   line-height: 20px;
+  text-align: left;
 }
 
 .node-type-programme .region-sidebar-second  .block-vlp-our-partners  .views-row , .node-type-programme .region-sidebar-second  .block-useful-links  .views-row {
@@ -5163,7 +5048,7 @@ a.red-register{
 
 /* Download Brochure */
   
-.node-type-programme  .block-download-brochure {
+.node-type-programme .block-download-brochure {
   width: 155px;
   height: 50px;
   background: url('../images/pdf-brochure.png') no-repeat;
@@ -5175,15 +5060,14 @@ a.red-register{
   margin-left: -5px;
 }
 
-.node-type-programme  .block-download-brochure a { 
+.node-type-programme .block-download-brochure a { 
   color: #fff; 
   text-decoration: none; 
 }
 
-.node-type-programme  .block-download-brochure a:hover { 
+.node-type-programme .block-download-brochure a:hover { 
   text-decoration: underline; 
 }
-
 
 /* Maths 2 Measure Workshops */
 
@@ -5229,4 +5113,11 @@ a.red-register{
   color: #fff;
   font-size: 13px;
   display: block;
+}
+
+/* Twitter block */
+.node-type-programme #block-twitter-block-2 .block-title {
+  height: 41px;
+  padding-top: 0;
+  margin-top: 0;
 }
