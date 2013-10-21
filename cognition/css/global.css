@@ -2720,7 +2720,7 @@ body[id^*="page-services-schooling"] #page-title {
   width: 138px;
   height: 40px;
   text-indent: -9999px;
-  margin: 0 0 0 14px;
+  margin: 14px 0 0 0;
 }
 
 #page-contact #block-contact-form-blocks-1 #edit-submit:hover { box-shadow: 1px 3px 7px #8DBD3E; }
@@ -2732,7 +2732,7 @@ body[id^*="page-services-schooling"] #page-title {
 
 #page-contact #block-contact-form-blocks-1 input.form-text, #page-contact #block-contact-form-blocks-1 textarea { font-size: 16px; color: #444; background: #F7F7F7; border: 1px solid #bbb; padding: 4px 0 4px 6px; }
 
-#page-contact #block-contact-form-blocks-1 textarea { width: 466px; float: left; }
+/* #page-contact #block-contact-form-blocks-1 textarea { width: 466px; float: left; } */
 
 #page-contact #block-contact-form-blocks-1 .grippie { display: none; }
 
@@ -2748,15 +2748,20 @@ body[id^*="page-services-schooling"] #page-title {
 
 #page-contact #page-title { display: none; }
 
-#page-contact .group-right { margin-top: 20px; }
+/* #page-contact .group-right { margin-top: 20px; } */
 
 #page-contact .field-name-body h3 { margin: 4px 0 2px 0; font-weight: 400; }
 
+/* Delete this
 #page-contact #block-system-main {
   float: right;
   width: 210px;
 }
+*/
 
+#page-contact #block-contact-form-blocks-1 .form-item-copy {
+  margin-top: 0;
+}
 
 
 #block-views-2b23a7a22d24b1357927a9389eb9f7b5 {
