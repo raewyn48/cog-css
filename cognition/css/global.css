@@ -4614,6 +4614,43 @@ input.form-submit { font-family: proxima-nova !important; }
   font-size: 16px;  
 }
 
+/* Slider back and next buttons */
+
+.view-id-home_page_slider #cnext, .view-id-home_page_slider #cprev {
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  border: none;
+  color: #fff;
+  font-size: 30px;
+  position: relative;
+  z-index: 20;
+  text-align: center;
+  top: 130px;
+  float: left;
+}
+
+.view-id-home_page_slider #cnext {
+  left: 580px;
+  background: #000 url('../images/slide-right.png') no-repeat center;
+}
+
+.view-id-home_page_slider #cprev {
+  left: -30px;
+  background: #000 url('../images/slide-left.png') no-repeat center;
+}
+
+.view-id-home_page_slider #cnext:hover {
+  cursor: pointer;
+  background: #fff url('../images/slide-right_hover.png') no-repeat center;
+}
+
+.view-id-home_page_slider #cprev:hover {
+  cursor: pointer;
+  background: #fff url('../images/slide-left_hover.png') no-repeat center;
+}
+
 /* Workshops page */
 
 #page-events {}
