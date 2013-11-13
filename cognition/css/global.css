@@ -2915,6 +2915,192 @@ body[id^*="page-services-schooling"] #page-title {
 
 
 
+/* New Projects Page - changed from block to view page */
+/* Copy of above but .view-display-id-cognition_projects_full replaced with .view-display-id-_projects_page */
+/* and #page-portfolio with #page-projectspage (#page-projects when live) */
+
+#page-projectspage .view-display-id-projects_page h3 { clear: both; }
+
+#page-projectspage .view-display-id-projects_page .views-row { width: 196px; float: left; margin-right: 35px; margin-top: 26px; }
+
+#page-projectspage .view-display-id-projects_page .views-row.teaching-amp-learning { padding-top: 10px; }
+#page-projectspage .view-display-id-projects_page .views-row.teaching-amp-learning .views-field-field-service-line {
+  border-bottom: 6px solid #CA2053;
+  color: #CA2053;
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+  font-size: 12px;
+}
+
+#page-projectspage .view-display-id-projects_page .views-row.schooling { padding-top: 10px; }
+#page-projectspage .view-display-id-projects_page .views-row.schooling .views-field-field-service-line {
+  border-bottom: 6px solid #6D79A4;
+  color: #6D79A4;
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+  font-size: 12px;
+}
+
+#page-projectspage .view-display-id-projects_page .views-row.evaluation { padding-top: 10px; }
+#page-projectspage .view-display-id-projects_page .views-row.evaluation .views-field-field-service-line {
+  border-bottom: 6px solid #895C90;
+  color: #895C90;
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+  font-size: 12px;
+}
+
+#page-projectspage .view-display-id-projects_page .views-row.systems-thinking { padding-top: 10px; }
+#page-projectspage .view-display-id-projects_page .views-row.systems-thinking .views-field-field-service-line {
+  border-bottom: 6px solid #FFA620;
+  color: #FFA620;
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+  font-size: 12px;
+}
+
+#page-projectspage .view-display-id-projects_page .views-row-4, #page-projectspage .view-display-id-projects_page .views-row-8, #page-projectspage .view-display-id-projects_page .views-row-12, #page-projectspage .view-display-id-projects_page .views-row-16, #page-projectspage .view-display-id-projects_page .views-row-20, #page-projectspage .view-display-id-projects_page .views-row-24 { margin-right: 0;  }
+
+#page-projectspage .view-display-id-projects_page .views-row-5, #page-projectspage .view-display-id-projects_page .views-row-9, #page-projectspage .view-display-id-projects_page .views-row-13, #page-projectspage .view-display-id-projects_page .views-row-17, #page-projectspage .view-display-id-projects_page .views-row-21, #page-projectspage .view-display-id-projects_page .views-row-25 { clear: left;  }
+
+#page-projectspage .view-display-id-projects_page .views-row .views-field-title a { text-decoration: none; font-weight: 600; }
+
+#page-projectspage .view-display-id-projects_page .views-row.teaching-amp-learning .views-field-title a { color: #CA2053; }
+#page-projectspage .view-display-id-projects_page .views-row.systems-thinking .views-field-title a { color: #FFA620; }
+#page-projectspage .view-display-id-projects_page .views-row.evaluation .views-field-title a { color: #895C90; }
+#page-projectspage .view-display-id-projects_page .views-row.schooling .views-field-title a { color: #6D79A4; }
+
+
+#page-projectspage .view-display-id-projects_page .views-row .views-field-field-author, #page-projectspage .view-display-id-projects_page .views-row .views-field-field-publish-date { font-size: 12px; }
+
+#page-projectspage .view-display-id-projects_page .views-row .views-field-title { margin-bottom: 2px; }
+#page-projectspage .view-display-id-projects_page .views-row .views-field-field-image { margin-top: 4px; position: relative; }
+#page-projectspage .view-display-id-projects_page .views-row .views-field-field-image .field-content:after {
+  content: "";
+  display: block;
+  height: 132px;
+  width: 214px;
+  position: absolute;
+  background: url('../images/news-bg-fade.png');
+  left: -3px;
+  top: 4px;
+  z-index: -1;
+}
+
+#page-projectspage .view-display-id-projects_page .views-row .views-field-field-image img { border: 7px solid #fff; }
+
+.view-display-id-projects_page .item-list {
+  float: left;
+  position: relative;
+  left: 50%;
+  margin-top: 40px;
+  clear: both;
+}
+
+#page-projectspage .pager {
+  background: #fff;
+  padding: 8px 32px;
+  border: 1px solid #CCCCCC;
+  color: #87B83A;
+  float: left;
+  position: relative;
+  left: -50%;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+#page-projectspage .pager a { text-decoration: none; color: #5A5A5A; }
+
+
+
+
+/* Projects search and filtering */
+
+#page-projectspage .view-header {
+  font-size: 16px;
+}
+
+#page-projectspage  #views-exposed-form-cognition-projects-projects-page input#edit-keys.form-text {
+	border: 0;
+	border-radius: 5px;
+	width: 200px;
+	height: 24px;
+	color: #999;
+  text-indent: 30px;
+  margin-top: 2px;
+}
+
+#page-projectspage #views-exposed-form-cognition-projects-projects-page select#edit-field-service-line-target-id.form-select  {
+  border: 0;
+  border-radius: 5px;
+  width: 148px;
+  height: 29px;
+  color: #000;
+}
+
+#page-projectspage #views-exposed-form-cognition-projects-projects-page #edit-submit-cognition-projects {
+  border: 0;
+  background: 0;
+  position: relative;
+  width: 16px;
+  height: 16px;
+  left: -418px;
+  top: -15px;
+  background: url('../../cognition/images/search-icon.png') no-repeat;
+  overflow: hidden;
+  color: transparent;
+}
+
+#page-projectspage #views-exposed-form-cognition-projects-projects-page label{
+  display: none;
+}
+
+div.rel-register-link {
+  display: none;
+}
+
+/* Psudo select elements for the projects filters */
+
+#page-projectspage #edit-field-service-line-target-id-wrapper {
+  padding: 0;
+  width: 210px;
+  margin: 10px 0 15px 0;
+}
+
+#page-projectspage #edit-field-service-line-target-id-wrapper .bef-select-as-links {
+  background: #fff;
+  position: absolute;
+  width: 280px;
+  z-index: 100;
+}
+
+#page-projectspage #edit-field-service-line-target-id-wrapper .bef-select-as-links > .form-item {
+  display: none;
+}
+
+#page-projectspage #edit-field-service-line-target-id-wrapper .bef-select-as-links .form-item a {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  display: block;
+  padding-left: 5px;
+}
+
+#page-projectspage #edit-field-service-line-target-id-wrapper .psudo-select a {
+  line-height:24px;
+}
+
+#page-projectspage #edit-field-service-line-target-id-wrapper .bef-select-as-links .selected a,
+#page-projectspage #edit-field-service-line-target-id-wrapper .bef-select-as-links .form-item a:hover {
+  color: #fff;
+  background: #8cbd3e; 
+  text-decoration: none;
+}  
+
+
+
+
+
 /* Services Teaching Curriculum */
 
 #page-services-teaching-and-learning-curriculum .group-left { width: 652px; }
